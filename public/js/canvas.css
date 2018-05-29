@@ -1,0 +1,45 @@
+/* canvas.css  */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+
+
+canvas{border:3px black solid;margin:10px;max-width: 100%; height: auto;background-color:white;  }
+
+table{margin:40px auto;}
+
+h1{color:white; margin:10px;}
+body {
+
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+    background-image: url("kan.png");
+}
+
+
+
+.button_init {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/*.button_set {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    line-height: 150px  !important;
+  margin:20px auto !important;
+
+}*/

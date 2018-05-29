@@ -1,0 +1,32 @@
+/* main.CSS  */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+
+body{
+  background-color: black;
+
+
+}
+/*canvas{ background-color:white; margin:10px; }
+canvas{  background: linear-gradient(gray, yellow, gray);}*/
+canvas{ background:radial-gradient(red 5%, yellow 35%, green 60%);opacity:0.7;  background-blend-mode: color-dodge;background-blend-mode: color-dodge;}
+
+table{
+  margin:80px auto;
+  position: relative;
+  /* border: 30px solid transparent;
+  border-left-image: url("fr.jpg") 100 400 round; */
+
+}
+.left-img{
+  position: absolute;
+  top:-107px;
+  left:-150px;
+  background-position:-163x -115px;
+	width:1300px;
+	height:910px;
+}
+h1 {color:white;text-align: center;}

@@ -1,0 +1,38 @@
+{
+  "name": "draw",
+  "version": "1.0.0",
+  "description": "draw",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "game",
+    "online"
+  ],
+  "author": "euyshick hong",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "v4.4.4",
+    "npm": "2.15.1"
+  },
+  "devDependencies": {
+    "serialport": "^4.0.7"
+  }
+}
