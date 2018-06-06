@@ -22,9 +22,9 @@
 
     // Socket 데이터 값 받기
     socket.on('line', function(data) {
+
            context.lineWidth = data.width;
            context.strokeStyle = data.color;
-
            context.shadowBlur = data.blurWidth;
            context.shadowColor = data.blurColor;
            context.lineCap = "round";
@@ -96,7 +96,9 @@
                       // ,modfreq:700
                       // ,depth:800
                       // ,gain:0.5
-
+                      console.log("color" ,data.color);
+                      console.log("width",data.width);
+                      console.log("blurWidth" ,data.blurWidth);
                       console.log("carrier_type",fm.carrier_type.type);
                       console.log("carrier" ,fm.carrier.value);
                       console.log("mod_type" ,fm.mod_type.type);
