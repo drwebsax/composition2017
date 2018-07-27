@@ -39,15 +39,15 @@ DRAW.Framework =new function(){
             case 3:
                cExtendPitchData=PitchList[RandomValue]*3
                break;
-         }
+        }
 
-            // width 랜덤
+        // width 랜덤
         var RandomColorBlur =Math.floor(Math.random() * 13)
         var RandomWidth =Math.floor(Math.random() * 45)+5;
         var RandomBlur =Math.floor(Math.random() * 200)
 
-        console.log(RandomWidth);
-        console.log(RandomBlur);
+        //console.log(RandomWidth);
+        //console.log(RandomBlur);
 
         return (
             [ColorList[RandomValue],ExtendPitchData
@@ -78,14 +78,11 @@ DRAW.Framework =new function(){
 
     //DRAW.Framework.FmCarrierType();
     this.FmCarrierType = function() {
-
         var RandomValue =Math.floor(Math.random() * 4)
             ,CarrierTypeList=["sine","sawtooth","triangle","square"]
         //console.log(CarrierTypeList[RandomValue]);
         return (
             CarrierTypeList[RandomValue]
         )
-
     }
-
 }
