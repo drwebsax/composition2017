@@ -1,6 +1,6 @@
 
 
-# composition2017  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+# composition2017 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
 
   Interactive media installation on the web
 
